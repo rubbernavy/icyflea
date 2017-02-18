@@ -15,4 +15,4 @@
 #   You should have received a copy of the GNU General Public License
 #   along with icyflea.  If not, see <http://www.gnu.org/licenses/>.
 
-docker run --interactive --rm --volume /test:usr/local/src --workdir /usr/local/src alpine:3.4 touch it
+docker run --interactive --rm --volume /test:/usr/local/src --workdir /usr/local/src alpine:3.4 touch it
