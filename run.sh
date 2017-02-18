@@ -17,4 +17,4 @@
 
 apk update &&
     apk upgrade &&
-    apk install docker
+    apk add docker
